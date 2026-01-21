@@ -6,7 +6,6 @@ const Home = () => {
     <div className={styles.homeWrapper}>
       <div className={styles.overlay}>
         <header className={styles.navbar}>
-          {/* Contenedor del Logo (ahora a la izquierda en móvil) */}
           <div className={styles.logoContainer}>
             <img 
               src="/figma_logo.png" 
@@ -15,7 +14,6 @@ const Home = () => {
             />
           </div>
 
-          {/* Links: se ocultarán en móvil */}
           <nav className={styles.navLinks}>
             <a href="#home" className={styles.link}>Home</a>
             <a href="#product" className={styles.link}>Product</a>
@@ -24,7 +22,6 @@ const Home = () => {
             <a href="#contact" className={styles.link}>Contact</a>
           </nav>
 
-          {/* Iconos sociales: se ocultarán en móvil */}
           <div className={styles.socialIcons}>
             <a href="https://twitter.com" target="_blank" rel="noreferrer">
               <img src="/twitter_white.png" alt="Twitter" />
